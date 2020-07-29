@@ -14,13 +14,13 @@ padding-right: 5%;
 
 function PageDefault({ children }) {
     return (
-        <div>
+        <React.Fragment>
             <Menu />
             <Main>
                 {children}
             </Main>
             <Footer />
-        </div>
+        </React.Fragment>
     );
 }
 
