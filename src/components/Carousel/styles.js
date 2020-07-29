@@ -25,6 +25,7 @@ export const ExtraLink = styled.a`
   &:hover,
   &:focus {
     opacity: .5;
+    animation: bounce 1s;
   }
   @media (max-width: 800px) {
     display: block;

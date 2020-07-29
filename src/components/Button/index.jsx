@@ -1,7 +1,7 @@
 
 import styled from 'styled-components';
 
-const Button = styled.button`
+ const Button = styled.button`
     color: var(--white);
     border: 1px solid var(--white);
     box-sizing: border-box;
@@ -18,6 +18,7 @@ const Button = styled.button`
     &hover,
     &focus {
       opacity: .5;
+      animation: bounce 1s;
     }
 `;
 
